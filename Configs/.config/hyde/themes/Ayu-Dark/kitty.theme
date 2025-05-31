@@ -1,0 +1,47 @@
+$HOME/.config/kitty/theme.conf|killall -SIGUSR1 kitty
+background #0e1419
+foreground #e5e1cf
+selection_foreground    #0e1419
+selection_background    #243340
+
+# TODO: fix color
+cursor                  #F8AF4F
+cursor_text_color       #0D0E10
+
+# TODO: fix color
+active_tab_foreground     #0A0E14
+active_tab_background     #A7783B
+inactive_tab_foreground   #A7783B
+inactive_tab_background   #0A0E14
+
+# black
+color0 #000000
+color8 #323232
+
+# red
+color1 #ff3333
+color9 #ff6565
+
+# green
+color2 #b8cc52
+color10 #e9fe83
+
+# yellow
+color3 #e6c446
+color11 #fff778
+
+# blue
+color4 #36a3d9
+color12 #68d4ff
+
+# magenta
+color5 #f07078
+color13 #ffa3aa
+
+# cyan
+color6 #95e5cb
+color14 #c7fffc
+
+# white
+color7 #ffffff
+color15 #ffffff
