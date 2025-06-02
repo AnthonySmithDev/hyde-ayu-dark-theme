@@ -32,12 +32,10 @@ group {
         height = 20
         indicator_gap = 0
         indicator_height = 0
-        gaps_in = 2
-        gaps_out = 2
-        col.active = rgb(e6b450) rgb(e6b450) 45deg
-        col.inactive = rgba(11151cbf) rgba(11151cbf) 45deg
-        col.locked_active = rgb(e6b450) rgb(e6b450) 45deg
-        col.locked_inactive = rgba(11151cbf) rgba(11151cbf) 45deg
+        col.active = rgba(e6b450e6) rgba(e6b450e6) 45deg
+        col.inactive = rgba(11151ce6) rgba(11151ce6) 45deg
+        col.locked_active = rgb(e6b450e6) rgb(e6b450e6) 45deg
+        col.locked_inactive = rgba(11151ce6) rgba(11151ce6) 45deg
     }
 }
 

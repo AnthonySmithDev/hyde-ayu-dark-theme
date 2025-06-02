@@ -8,25 +8,25 @@ $COLOR_SCHEME = prefer-dark
 # Optional: The varibles above will be set automatically when the theme is loaded
 # This exec commands will soon be deprecated
 
-exec = gsettings set org.gnome.desktop.interface icon-theme $ICON_THEME
-exec = gsettings set org.gnome.desktop.interface gtk-theme $GTK_THEME
-exec = gsettings set org.gnome.desktop.interface color-scheme $COLOR_SCHEME
+# exec = gsettings set org.gnome.desktop.interface icon-theme $ICON_THEME
+# exec = gsettings set org.gnome.desktop.interface gtk-theme $GTK_THEME
+# exec = gsettings set org.gnome.desktop.interface color-scheme $COLOR_SCHEME
 
 general {
     gaps_in = 3
     gaps_out = 8
     border_size = 2
-    col.active_border = rgb(e6b450) rgb(e6b673) 45deg
-    col.inactive_border = rgb(565b66) rgb(131721) 45deg
+    col.active_border = rgb(e6b450) rgba(e6b450bf) 45deg
+    col.inactive_border = rgb(565b66) rgba(565b6640) 45deg
     layout = dwindle
     resize_on_border = true
 }
 
 group {
-    col.border_active = rgb(e6b450) rgb(e6b673) 45deg
-    col.border_inactive = rgb(565b66) rgb(131721) 45deg
-    col.border_locked_active = rgb(e6b450) rgb(e6b673) 45deg
-    col.border_locked_inactive = rgb(565b66) rgb(131721) 45deg
+    col.border_active = rgb(e6b450) rgba(e6b450bf) 45deg
+    col.border_inactive = rgb(565b66) rgba(565b6640) 45deg
+    col.border_locked_active = rgb(e6b450) rgba(e6b450bf) 45deg
+    col.border_locked_inactive = rgb(565b66) rgba(565b6640) 45deg
 
     groupbar {
         height = 20
