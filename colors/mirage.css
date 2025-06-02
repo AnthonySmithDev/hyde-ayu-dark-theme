@@ -1,0 +1,49 @@
+:root {
+  /* Base colors */
+  --u-base: #1F2430;
+  --e-base: #242936;
+
+  /* Syntax colors */
+  --syntax-tag: #5CCFE6;
+  --syntax-func: #FFD173;
+  --syntax-entity: #73D0FF;
+  --syntax-string: #D5FF80;
+  --syntax-regexp: #95E6CB;
+  --syntax-markup: #F28779;
+  --syntax-keyword: #FFAD66;
+  --syntax-special: #FFDFB3;
+  --syntax-comment: rgba(184, 207, 230, 0.5);
+  --syntax-constant: #DFBFFF;
+  --syntax-operator: #F29E74;
+
+  /* Version control colors */
+  --vcs-added: #87D96C;
+  --vcs-modified: #80BFFF;
+  --vcs-removed: #F27983;
+
+  /* Editor colors */
+  --editor-fg: #CCCAC2;
+  --editor-bg: #242936;
+  --editor-line: #1A1F29;
+  --editor-selection-active: rgba(64, 159, 255, 0.25);
+  --editor-selection-inactive: rgba(64, 159, 255, 0.13);
+  --editor-findMatch-active: #695380;
+  --editor-findMatch-inactive: rgba(105, 83, 128, 0.4);
+  --editor-gutter-active: rgba(138, 145, 153, 0.8);
+  --editor-gutter-normal: rgba(138, 145, 153, 0.4);
+  --editor-indentGuide-active: rgba(138, 145, 153, 0.35);
+  --editor-indentGuide-normal: rgba(138, 145, 153, 0.18);
+
+  /* UI colors */
+  --ui-fg: #707A8C;
+  --ui-bg: #1F2430;
+  --ui-line: #171B24;
+  --ui-selection-active: rgba(99, 117, 153, 0.15);
+  --ui-selection-normal: rgba(105, 117, 140, 0.12);
+  --ui-panel-bg: #1C212B;
+  --ui-panel-shadow: rgba(18, 21, 28, 0.7);
+
+  /* Common colors */
+  --common-accent: #FFCC66;
+  --common-error: #FF6666;
+}
