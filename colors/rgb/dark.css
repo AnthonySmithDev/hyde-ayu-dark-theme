@@ -1,0 +1,49 @@
+:root {
+  /* Base colors */
+  --u-base: rgb(11, 14, 20);
+  --e-base: rgb(13, 16, 23);
+
+  /* Syntax colors */
+  --syntax-tag: rgb(57, 186, 230);
+  --syntax-func: rgb(255, 180, 84);
+  --syntax-entity: rgb(89, 194, 255);
+  --syntax-string: rgb(170, 217, 76);
+  --syntax-regexp: rgb(149, 230, 203);
+  --syntax-markup: rgb(240, 113, 120);
+  --syntax-keyword: rgb(255, 143, 64);
+  --syntax-special: rgb(230, 182, 115);
+  --syntax-comment: rgba(172, 182, 191, 0.55);
+  --syntax-constant: rgb(210, 166, 255);
+  --syntax-operator: rgb(242, 150, 104);
+
+  /* Version control colors */
+  --vcs-added: rgb(127, 217, 98);
+  --vcs-modified: rgb(115, 184, 255);
+  --vcs-removed: rgb(242, 109, 120);
+
+  /* Editor colors */
+  --editor-fg: rgb(191, 189, 182);
+  --editor-bg: rgb(13, 16, 23);
+  --editor-line: rgb(19, 23, 33);
+  --editor-selection-active: rgba(64, 159, 255, 0.3);
+  --editor-selection-inactive: rgba(64, 159, 255, 0.13);
+  --editor-findMatch-active: rgb(108, 89, 128);
+  --editor-findMatch-inactive: rgba(108, 89, 128, 0.4);
+  --editor-gutter-active: rgba(108, 115, 128, 0.9);
+  --editor-gutter-normal: rgba(108, 115, 128, 0.6);
+  --editor-indentGuide-active: rgba(108, 115, 128, 0.5);
+  --editor-indentGuide-normal: rgba(108, 115, 128, 0.2);
+
+  /* UI colors */
+  --ui-fg: rgb(86, 91, 102);
+  --ui-bg: rgb(11, 14, 20);
+  --ui-line: rgb(17, 21, 28);
+  --ui-selection-active: rgba(71, 82, 102, 0.25);
+  --ui-selection-normal: rgba(71, 82, 102, 0.2);
+  --ui-panel-bg: rgb(15, 19, 26);
+  --ui-panel-shadow: rgba(0, 0, 0, 0.5);
+
+  /* Common colors */
+  --common-accent: rgb(230, 180, 80);
+  --common-error: rgb(217, 87, 87);
+}

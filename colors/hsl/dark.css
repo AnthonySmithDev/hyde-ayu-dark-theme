@@ -1,0 +1,49 @@
+:root {
+  /* Base colors */
+  --u-base: hsl(220, 24%, 7%);
+  --e-base: hsl(220, 24%, 8%);
+
+  /* Syntax colors */
+  --syntax-tag: hsl(195, 78%, 56%);
+  --syntax-func: hsl(34, 100%, 67%);
+  --syntax-entity: hsl(203, 100%, 68%);
+  --syntax-string: hsl(79, 64%, 60%);
+  --syntax-regexp: hsl(162, 65%, 72%);
+  --syntax-markup: hsl(355, 80%, 69%);
+  --syntax-keyword: hsl(24, 100%, 63%);
+  --syntax-special: hsl(38, 68%, 68%);
+  --syntax-comment: rgba(172, 182, 191, 0.55);
+  --syntax-constant: hsl(270, 100%, 82%);
+  --syntax-operator: hsl(18, 84%, 68%);
+
+  /* Version control colors */
+  --vcs-added: hsl(102, 60%, 62%);
+  --vcs-modified: hsl(211, 100%, 70%);
+  --vcs-removed: hsl(355, 80%, 68%);
+
+  /* Editor colors */
+  --editor-fg: hsl(45, 8%, 74%);
+  --editor-bg: hsl(220, 24%, 8%);
+  --editor-line: hsl(225, 22%, 11%);
+  --editor-selection-active: rgba(64, 159, 255, 0.3);
+  --editor-selection-inactive: rgba(64, 159, 255, 0.13);
+  --editor-findMatch-active: hsl(266, 18%, 49%);
+  --editor-findMatch-inactive: rgba(108, 89, 128, 0.4);
+  --editor-gutter-active: rgba(108, 115, 128, 0.9);
+  --editor-gutter-normal: rgba(108, 115, 128, 0.6);
+  --editor-indentGuide-active: rgba(108, 115, 128, 0.5);
+  --editor-indentGuide-normal: rgba(108, 115, 128, 0.2);
+
+  /* UI colors */
+  --ui-fg: hsl(220, 8%, 38%);
+  --ui-bg: hsl(220, 24%, 7%);
+  --ui-line: hsl(220, 25%, 10%);
+  --ui-selection-active: rgba(71, 82, 102, 0.25);
+  --ui-selection-normal: rgba(71, 82, 102, 0.2);
+  --ui-panel-bg: hsl(220, 25%, 10%);
+  --ui-panel-shadow: rgba(0, 0, 0, 0.5);
+
+  /* Common colors */
+  --common-accent: hsl(41, 74%, 61%);
+  --common-error: hsl(0, 60%, 63%);
+}
