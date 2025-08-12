@@ -29,6 +29,9 @@ group {
     col.border_locked_inactive = rgb(565b66) rgba(565b6640) 45deg
 
     groupbar {
+        # height = 10
+        # render_titles = false
+
         height = 20
         indicator_gap = 0
         indicator_height = 0
